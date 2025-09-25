@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video</title>
+</head>
+
+<body>
+    <h1>Formatos de vídeo</h1>
+    <h2>colocando vídeos hospedados localmente</h2>
+    <h1>hospedado no meu próprio servidor</h1>
+
+    <video width="560px" poster="imagens/capa-video.png" controls autoplay loop>
+        <source src="midia/Penhasco.mp4" type="video/mp4">
+        <source src="midia/Penhasco.mkv" type="video/mkv">
+        <source src="midia/Penhasco.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos. <a href="midia/Penhasco.mp4">Clique aqui para
+                baixar</a></p>
+    </video>
+    <hr>
+    <h2>Adicionando vídeos hospedados em servidores externos</h2>
+    <h3>YouTube:</h3>
+    <p>Nesse caso, o site estará consumindo os dados do YoutTube e não do servidor do site</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/I75fB2Bs2og?si=dq4CyceNN6Iqcw0Z"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <hr>
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1108239493?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Sofascore_Fluminense"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</body>
+
+</html>
